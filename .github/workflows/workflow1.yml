@@ -29,5 +29,4 @@ jobs:
       - name: Create a Service
         run: kubectl expose deployment flaskex-deploy --name=flaskex-svc --type=LoadBalancer --port=80 --target-port=5000
         
-          
-          
+      
